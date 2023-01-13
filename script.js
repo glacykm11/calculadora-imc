@@ -14,7 +14,7 @@ function calcular(event) {
     resultado = document.getElementById('resultado');
 
     if (imc < 17) {
-        resultado.innerHTML = `<br/> Seu resultado foi: ${imc.toFixed(2)} <br/> Cuidado você está" muito abaixo do peso!`
+        resultado.innerHTML = `<br/> Seu resultado foi: ${imc.toFixed(2)} <br/> Cuidado você está muito abaixo do peso!`
     } else if (imc > 17 && imc <= 18.49) {
         resultado.innerHTML = `<br/> Seu resultado foi: ${imc.toFixed(2)} <br/> Cuidado você está abaixo do peso!`
     } else if (imc >= 18.5 && imc < 24.99) {
