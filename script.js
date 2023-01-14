@@ -25,6 +25,11 @@ function calcular(event) {
         resultado.innerHTML = `<br/> Seu resultado foi: ${imc.toFixed(2)} <br/> Cuidado obesidade!`
     }
 
+    limparCampos();
+
+}
+
+function limparCampos() {
     document.getElementById('peso').value = '';
     document.getElementById('altura').value = '';
 }
